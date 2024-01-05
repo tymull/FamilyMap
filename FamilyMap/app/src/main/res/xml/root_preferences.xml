@@ -1,0 +1,57 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        app:title="@string/life_story_lines_title"
+        app:key="@string/life_story_lines_key"
+        app:summaryOn="@string/life_story_lines_summary_on"
+        app:summaryOff="@string/life_story_lines_summary_off"
+        app:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        app:title="@string/family_tree_lines_title"
+        app:key="@string/family_tree_lines_key"
+        app:summaryOn="@string/family_tree_lines_summary_on"
+        app:summaryOff="@string/family_tree_lines_summary_off"
+        app:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        app:title="@string/spouse_lines_title"
+        app:key="@string/spouse_lines_key"
+        app:summaryOn="@string/spouse_lines_summary_on"
+        app:summaryOff="@string/spouse_lines_summary_off"
+        app:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        app:title="@string/father_side_title"
+        app:key="@string/father_side_key"
+        app:summaryOn="@string/father_side_summary_on"
+        app:summaryOff="@string/father_side_summary_off"
+        app:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        app:title="@string/mother_side_title"
+        app:key="@string/mother_side_key"
+        app:summaryOn="@string/mother_side_summary_on"
+        app:summaryOff="@string/mother_side_summary_off"
+        app:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        app:title="@string/male_events_title"
+        app:key="@string/male_events_key"
+        app:summaryOn="@string/male_events_summary_on"
+        app:summaryOff="@string/male_events_summary_off"
+        app:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        app:title="@string/female_events_title"
+        app:key="@string/female_events_key"
+        app:summaryOn="@string/female_events_summary_on"
+        app:summaryOff="@string/female_events_summary_off"
+        app:defaultValue="true" />
+
+    <Preference
+        app:title="@string/logout_title"
+        app:key="@string/logout_key"
+        app:summary="@string/logout_summary" />
+
+</PreferenceScreen>

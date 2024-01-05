@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Family Map</string>
+    <!-- Strings related to login -->
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+
+    <string name="user_first_name">%s</string>
+    <string name="user_last_name">%s</string>
+    <string name="login_failed">Login failed</string>
+    <string name="register_failed">Register failed</string>
+    <string name="server_host">Server Host:</string>
+    <string name="server_port">Server Port:</string>
+    <string name="username">User Name:</string>
+    <string name="password">Password:</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="email">Email:</string>
+    <string name="gender">Gender:</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="register">REGISTER</string>
+
+    <!-- Strings related to map fragment -->
+    <string name="map_fragment_message">Click on a marker to see event details</string>
+    <string name="event_message">%s</string>
+
+    <!-- Strings related to person activity -->
+    <string name="person_first_name">%s</string>
+    <string name="person_last_name">%s</string>
+    <string name="first_name_colonless">First Name</string>
+    <string name="last_name_colonless">Last Name</string>
+    <string name="gender_colonless">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="eventsTitle">LIFE EVENTS</string>
+    <string name="peopleTitle">FAMILY</string>
+    <string name="father">Father</string>
+    <string name="mother">Mother</string>
+    <string name="spouse">Spouse</string>
+    <string name="child">Child</string>
+
+    <!-- Strings related to menu -->
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+
+    <!-- This string will indicate an error in finding proper text -->
+    <string name="error">ERROR</string>
+
+    <!-- Settings Strings -->
+    <string name="title_activity_settings">Family Map: Settings</string>
+    <!-- Preferences -->
+    <string name="life_story_lines_title">Life Story Lines</string>
+    <string name="life_story_lines_summary_on">SHOW LIFE STORY LINES</string>
+    <string name="life_story_lines_summary_off">HIDE LIFE STORY LINES</string>
+    <string name="family_tree_lines_title">Family Tree Lines</string>
+    <string name="family_tree_lines_summary_on">SHOW FAMILY TREE LINES</string>
+    <string name="family_tree_lines_summary_off">HIDE FAMILY TREE LINES</string>
+    <string name="spouse_lines_title">Spouse Lines</string>
+    <string name="spouse_lines_summary_on">SHOW SPOUSE LINES</string>
+    <string name="spouse_lines_summary_off">HIDE SPOUSE LINES</string>
+    <string name="father_side_title">Father\'s Side</string>
+    <string name="father_side_summary_on">SHOW EVENTS FOR FATHER\'S SIDE OF FAMILY</string>
+    <string name="father_side_summary_off">FILTER OUT EVENTS FOR FATHER\'S SIDE OF FAMILY</string>
+    <string name="mother_side_title">Mother\'s Side</string>
+    <string name="mother_side_summary_on">SHOW EVENTS FOR MOTHER\'S SIDE OF FAMILY</string>
+    <string name="mother_side_summary_off">FILTER OUT EVENTS FOR MOTHER\'S SIDE OF FAMILY</string>
+    <string name="male_events_title">Male Events</string>
+    <string name="male_events_summary_on">SHOW EVENTS FOR MALE GENDER</string>
+    <string name="male_events_summary_off">FILTER OUT EVENTS FOR MALE GENDER</string>
+    <string name="female_events_title">Female Events</string>
+    <string name="female_events_summary_on">SHOW EVENTS FOR FEMALE GENDER</string>
+    <string name="female_events_summary_off">FILTER OUT EVENTS FOR FEMALE GENDER</string>
+    <string name="logout_title">Logout</string>
+    <string name="logout_summary">RETURN TO LOGIN SCREEN</string>
+    <!-- Preference Keys -->
+    <string name="life_story_lines_key">lifeStoryLines</string>
+    <string name="family_tree_lines_key">familyTreeLines</string>
+    <string name="spouse_lines_key">spouseLines</string>
+    <string name="father_side_key">fatherSide</string>
+    <string name="mother_side_key">motherSide</string>
+    <string name="male_events_key">maleEvents</string>
+    <string name="female_events_key">femaleEvents</string>
+    <string name="logout_key">logout</string>
+
+    <string name="search_title">Family Map: Search</string>
+    <string name="search_hint">Search people or event info</string>
+</resources>
